@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>林玉惠 Yu-Huei Lin｜臺北醫學大學護理學院</title>
+<meta name="description" content="林玉惠 副教授，臺北醫學大學護理學院學士後護理學系。研究專長：肺復健、慢性病護理、慢性阻塞性肺病、紮根理論質性研究、大型資料庫分析。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f8f6; --surface:#ffffff; --text:#1f2a2c; --muted:#5b6b6e; --line:#e2e7e5;
+  --accent:#1f6f6b; --accent-soft:#e3f1ef; --tag:#eef3f2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121718; --surface:#1a2122; --text:#e6ecea; --muted:#9db0ad; --line:#2b3537;
+    --accent:#6cc5bd; --accent-soft:#1e3533; --tag:#223031;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121718; --surface:#1a2122; --text:#e6ecea; --muted:#9db0ad; --line:#2b3537;
+  --accent:#6cc5bd; --accent-soft:#1e3533; --tag:#223031;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;font-size:16px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* language toggle */
+html[data-lang="zh"] [lang="en"]{display:none}
+html[data-lang="en"] [lang="zh"]{display:none}
+
+header.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:56px}
+.brand{font-weight:700;color:var(--text)}
+.links{display:flex;gap:18px;font-size:14px}
+.links a{color:var(--muted)}
+.tools{display:flex;gap:6px}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
+@media (max-width:720px){.links{display:none}}
+
+.hero{padding:56px 0 40px;display:grid;grid-template-columns:180px 1fr;gap:36px;align-items:center}
+.photo{width:180px;height:220px;border-radius:14px;object-fit:cover;background:var(--accent-soft);border:1px solid var(--line)}
+.hero h1{font-family:"Noto Serif TC",serif;font-size:36px;margin:0;line-height:1.3}
+.hero h1 small{display:block;font-family:"Noto Sans TC",sans-serif;font-size:17px;font-weight:500;color:var(--muted);margin-top:4px}
+.role{margin:14px 0 6px;font-weight:500}
+.aff{color:var(--muted);margin:0}
+.ids{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.ids a{font-size:13px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 12px}
+@media (max-width:640px){.hero{grid-template-columns:1fr;gap:20px;padding-top:32px}.photo{width:140px;height:170px}.hero h1{font-size:30px}}
+
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-family:"Noto Serif TC",serif;font-size:24px;margin:0 0 20px;display:flex;align-items:baseline;gap:10px}
+h2 span.en-sub{font-family:"Noto Sans TC",sans-serif;font-size:13px;font-weight:500;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+
+.tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.tags li{background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:6px 14px;font-weight:500}
+
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:26px;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+
+.timeline{list-style:none;padding:0;margin:0}
+.timeline li{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.timeline li:last-child{border-bottom:0}
+.timeline .yr{color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px;padding-top:2px}
+@media (max-width:560px){.timeline li{grid-template-columns:1fr;gap:0}}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+h3{font-size:17px;margin:0 0 10px}
+
+.cards{display:grid;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 18px}
+.card .meta{font-size:13px;color:var(--muted)}
+.card .t{font-weight:500}
+.chip{display:inline-block;font-size:12px;background:var(--tag);color:var(--muted);border-radius:6px;padding:1px 8px;margin-right:6px}
+
+.pubs{list-style:none;padding:0;margin:0;counter-reset:p}
+.pubs li{padding:12px 0 12px 44px;position:relative;border-bottom:1px solid var(--line)}
+.pubs li::before{counter-increment:p;content:counter(p);position:absolute;left:0;top:12px;width:30px;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
+.pubs .t{font-weight:500}
+.pubs .j{color:var(--muted);font-size:14px}
+.pubs .j i{color:var(--text)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.filters .btn[aria-pressed="true"]{background:var(--accent);color:var(--surface);border-color:var(--accent)}
+
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:13px;color:var(--muted);font-weight:500}
+.table-scroll{overflow-x:auto}
+
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+footer{padding:28px 0 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<script>
+(function(){
+  var lang='zh',theme=null;
+  try{lang=localStorage.getItem('lang')||'zh';theme=localStorage.getItem('theme');}catch(e){}
+  document.documentElement.setAttribute('data-lang',lang);
+  if(theme)document.documentElement.setAttribute('data-theme',theme);
+})();
+</script>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span lang="zh">林玉惠</span><span lang="en">Yu-Huei Lin</span></a>
+    <nav class="links">
+      <a href="#research"><span lang="zh">研究專長</span><span lang="en">Research</span></a>
+      <a href="#experience"><span lang="zh">學經歷</span><span lang="en">Background</span></a>
+      <a href="#projects"><span lang="zh">研究計畫</span><span lang="en">Projects</span></a>
+      <a href="#publications"><span lang="zh">發表論文</span><span lang="en">Publications</span></a>
+      <a href="#teaching"><span lang="zh">授課</span><span lang="en">Teaching</span></a>
+      <a href="#contact"><span lang="zh">聯絡</span><span lang="en">Contact</span></a>
+    </nav>
+    <div class="tools">
+      <button class="btn" id="langBtn" type="button">EN / 中</button>
+      <button class="btn" id="themeBtn" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <img class="photo" src="https://nursing.tmu.edu.tw/uploads/2010120432525f8414b4225b4_m.jpg" alt="林玉惠 Yu-Huei Lin">
+    <div>
+      <h1 lang="zh">林玉惠 <small>Yu-Huei Lin, PhD, RN</small></h1>
+      <h1 lang="en">Yu-Huei Lin <small>林玉惠 · PhD, RN</small></h1>
+      <p class="role" lang="zh">副教授｜臺北醫學大學 護理學院 學士後護理學系</p>
+      <p class="role" lang="en">Associate Professor, Post-Baccalaureate Program in Nursing, College of Nursing, Taipei Medical University</p>
+      <p class="aff" lang="zh">致力於慢性阻塞性肺病（COPD）病人照護、肺復健與慢性病護理，並結合大型健康資料庫分析、系統性回顧與質性研究，以及以實證為基礎的護理教育創新。</p>
+      <p class="aff" lang="en">My work focuses on the care of people living with COPD, pulmonary rehabilitation and chronic illness nursing — drawing on large health-database analysis, systematic reviews, qualitative inquiry, and evidence-based innovation in nursing education.</p>
+      <div class="ids">
+        <a href="https://orcid.org/0000-0002-8382-9820" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://hub.tmu.edu.tw/zh/persons/yu-huei-lin/" target="_blank" rel="noopener"><span lang="zh">北醫學術研究平台</span><span lang="en">TMU Research Hub</span></a>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=57206200346" target="_blank" rel="noopener">Scopus</a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Lin+Yu-Huei%5BAuthor%5D+Taipei" target="_blank" rel="noopener">PubMed</a>
+        <a href="https://nursing.tmu.edu.tw/zh-TW/members/detail/40" target="_blank" rel="noopener"><span lang="zh">護理學院教師頁面</span><span lang="en">Faculty page</span></a>
+      </div>
+    </div>
+  </div>
+
+  <section id="research">
+    <h2><span lang="zh">研究專長</span><span lang="en">Research Interests</span><span class="en-sub" lang="zh">Research</span></h2>
+    <ul class="tags">
+      <li><span lang="zh">肺復健</span><span lang="en">Pulmonary rehabilitation</span></li>
+      <li><span lang="zh">慢性阻塞性肺病照護</span><span lang="en">COPD care</span></li>
+      <li><span lang="zh">慢性病護理</span><span lang="en">Chronic disease nursing</span></li>
+      <li><span lang="zh">紮根理論質性研究</span><span lang="en">Grounded theory (qualitative)</span></li>
+      <li><span lang="zh">大型資料庫分析</span><span lang="en">Large database analysis</span></li>
+      <li><span lang="zh">系統性回顧與統合分析</span><span lang="en">Systematic review &amp; meta-analysis</span></li>
+      <li><span lang="zh">衛生教育</span><span lang="en">Health education</span></li>
+      <li><span lang="zh">護理教育創新</span><span lang="en">Nursing education innovation</span></li>
+    </ul>
+    <div class="stats">
+      <div class="stat"><b>22+</b><span lang="zh">期刊論文</span><span lang="en">Journal articles</span></div>
+      <div class="stat"><b>8</b><span lang="zh">主持研究計畫</span><span lang="en">Funded projects (PI)</span></div>
+      <div class="stat"><b>10</b><span lang="zh">h-index（Scopus）</span><span lang="en">h-index (Scopus)</span></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2><span lang="zh">學經歷</span><span lang="en">Education &amp; Experience</span><span class="en-sub" lang="zh">Background</span></h2>
+    <div class="two">
+      <div>
+        <h3><span lang="zh">經歷</span><span lang="en">Positions</span></h3>
+        <ul class="timeline">
+          <li><span class="yr">2023.02 –</span><span><span lang="zh">臺北醫學大學 學士後護理學系 副教授</span><span lang="en">Associate Professor, Post-Baccalaureate Program in Nursing, TMU</span></span></li>
+          <li><span class="yr">2019.10 – 2023.01</span><span><span lang="zh">臺北醫學大學 學士後護理學系 助理教授</span><span lang="en">Assistant Professor, Post-Baccalaureate Program in Nursing, TMU</span></span></li>
+          <li><span class="yr">2017.09 – 2019.10</span><span><span lang="zh">臺北醫學大學 護理學系 助理教授</span><span lang="en">Assistant Professor, School of Nursing, TMU</span></span></li>
+          <li><span class="yr">1999 – 2012</span><span><span lang="zh">康寧大學 護理科 講師</span><span lang="en">Instructor, Department of Nursing, University of Kang Ning</span></span></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span lang="zh">學歷</span><span lang="en">Education</span></h3>
+        <ul class="timeline">
+          <li><span class="yr">2011 – 2017</span><span><span lang="zh">臺北醫學大學 護理學系 博士</span><span lang="en">PhD, School of Nursing, Taipei Medical University</span></span></li>
+          <li><span class="yr">1998 – 1999</span><span><span lang="zh">澳洲雪梨科技大學 護理學院 碩士</span><span lang="en">Master's, School of Nursing, University of Technology Sydney</span></span></li>
+          <li><span class="yr">1997 – 1998</span><span><span lang="zh">澳洲紐卡索大學 護理學院 學士</span><span lang="en">BSc, School of Nursing, University of Newcastle</span></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2><span lang="zh">近期研究計畫</span><span lang="en">Recent Projects</span><span class="en-sub" lang="zh">Projects</span></h2>
+    <div class="cards">
+      <div class="card">
+        <div class="meta"><span class="chip"><span lang="zh">教育部 教學實踐</span><span lang="en">Ministry of Education</span></span>2025.08 – 2026.07 · <span lang="zh">主持人</span><span lang="en">PI</span></div>
+        <div class="t" lang="zh">結合人工智慧創新學習方法提升護理學生交接班能力之研究</div>
+        <div class="t" lang="en">Enhancing Nursing Students' Handover Competencies through AI-Driven Learning Innovations</div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="chip"><span lang="zh">國科會</span><span lang="en">NSTC</span></span>2024.08 – 2025.07 · <span lang="zh">主持人</span><span lang="en">PI</span></div>
+        <div class="t" lang="zh">不同震動運動對慢性阻塞性肺病患者下肢肌力、運動耐力及生活品質之影響</div>
+        <div class="t" lang="en">Effects of Different Vibration Exercises on Lower-Limb Strength, Exercise Endurance and Quality of Life in Patients with COPD</div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="chip"><span lang="zh">教育部 教學實踐</span><span lang="en">Ministry of Education</span></span>2024.08 – 2025.07 · <span lang="zh">主持人</span><span lang="en">PI</span></div>
+        <div class="t" lang="zh">比較自我影片註解、同儕影片回饋與傳統教學方法在提升護理學生臨床技能和自我反思的作用與影響</div>
+        <div class="t" lang="en">Self-Video Annotation, Peer Video Feedback and Traditional Teaching for Nursing Students' Clinical Skills and Self-Reflection</div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="chip"><span lang="zh">國科會</span><span lang="en">NSTC</span></span>2024.07 – 2025.02 · <span lang="zh">主持人</span><span lang="en">PI</span></div>
+        <div class="t" lang="zh">探討口腔衰弱對肺阻塞病人住院風險的影響</div>
+        <div class="t" lang="en">Investigating the Impact of Oral Frailty on Hospitalization Risk in COPD Patients</div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="chip"><span lang="zh">教育部 教學實踐</span><span lang="en">Ministry of Education</span></span>2022.08 – 2023.07 · <span lang="zh">主持人</span><span lang="en">PI</span></div>
+        <div class="t" lang="zh">護理疾病腳本教學法策略提升學士後護理系學生臨床推理能力之成效</div>
+        <div class="t" lang="en">Illness Script Teaching to Improve Clinical Reasoning in Post-Baccalaureate Nursing Students</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2><span lang="zh">代表著作</span><span lang="en">Selected Publications</span><span class="en-sub" lang="zh">Publications</span></h2>
+    <div class="filters" role="group" aria-label="Filter publications">
+      <button class="btn" type="button" data-f="all" aria-pressed="true"><span lang="zh">全部</span><span lang="en">All</span></button>
+      <button class="btn" type="button" data-f="copd" aria-pressed="false"><span lang="zh">肺阻塞 / 呼吸照護</span><span lang="en">COPD &amp; respiratory</span></button>
+      <button class="btn" type="button" data-f="edu" aria-pressed="false"><span lang="zh">護理教育與護理人員</span><span lang="en">Education &amp; workforce</span></button>
+      <button class="btn" type="button" data-f="other" aria-pressed="false"><span lang="zh">其他臨床研究</span><span lang="en">Other clinical</span></button>
+    </div>
+    <ol class="pubs" id="pubList"></ol>
+    <p class="aff" style="margin-top:14px;font-size:14px">
+      <span lang="zh">完整著作清單請見</span><span lang="en">For the full list, see</span>
+      <a href="https://orcid.org/0000-0002-8382-9820" target="_blank" rel="noopener">ORCID</a> ·
+      <a href="https://hub.tmu.edu.tw/zh/persons/yu-huei-lin/" target="_blank" rel="noopener">TMU Research Hub</a>
+    </p>
+  </section>
+
+  <section id="teaching">
+    <h2><span lang="zh">授課課程</span><span lang="en">Teaching</span><span class="en-sub" lang="zh">Teaching</span></h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr>
+          <th><span lang="zh">課程</span><span lang="en">Course</span></th>
+          <th><span lang="zh">開課單位</span><span lang="en">Program</span></th>
+          <th><span lang="zh">修別</span><span lang="en">Type</span></th>
+        </tr></thead>
+        <tbody>
+          <tr><td><span lang="zh">健康照護研究方法</span><span lang="en">Health Care Research Methods</span></td><td><span lang="zh">護理學院碩士班共同核心課程</span><span lang="en">College of Nursing master's core</span></td><td><span lang="zh">必修</span><span lang="en">Required</span></td></tr>
+          <tr><td><span lang="zh">進階成人護理學實習（一）</span><span lang="en">Advanced Adult Nursing Practicum (I)</span></td><td><span lang="zh">護理學系碩士班</span><span lang="en">MSN Program</span></td><td><span lang="zh">必修</span><span lang="en">Required</span></td></tr>
+          <tr><td><span lang="zh">進階成人護理學（一）</span><span lang="en">Advanced Adult Nursing (I)</span></td><td><span lang="zh">護理學系碩士班</span><span lang="en">MSN Program</span></td><td><span lang="zh">必修</span><span lang="en">Required</span></td></tr>
+          <tr><td><span lang="zh">內外科護理專業技能</span><span lang="en">Medical-Surgical Nursing Professional Skills</span></td><td><span lang="zh">學士後護理學系</span><span lang="en">Post-Baccalaureate BSN</span></td><td><span lang="zh">選修</span><span lang="en">Elective</span></td></tr>
+          <tr><td><span lang="zh">臨床試驗倫理、法規與政策</span><span lang="en">Ethics, Regulations and Policy of Clinical Trials</span></td><td><span lang="zh">護理學系碩士班</span><span lang="en">MSN Program</span></td><td><span lang="zh">選修</span><span lang="en">Elective</span></td></tr>
+          <tr><td><span lang="zh">國際健康照護見習（二）</span><span lang="en">International Health Care Observation (II)</span></td><td><span lang="zh">護理學系</span><span lang="en">School of Nursing</span></td><td><span lang="zh">選修</span><span lang="en">Elective</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2><span lang="zh">聯絡方式</span><span lang="en">Contact</span><span class="en-sub" lang="zh">Contact</span></h2>
+    <div class="contact">
+      <div class="card"><div class="meta">Email</div><a href="mailto:gracelin@tmu.edu.tw">gracelin@tmu.edu.tw</a></div>
+      <div class="card"><div class="meta"><span lang="zh">電話</span><span lang="en">Phone</span></div>(02) 2736-1661</div>
+      <div class="card"><div class="meta"><span lang="zh">研究室</span><span lang="en">Office</span></div>
+        <span lang="zh">110 臺北市信義區吳興街 250 號<br>醫學綜合大樓後棟 13 樓</span>
+        <span lang="en">13F, Rear Building, Medical Complex Building<br>250 Wuxing St., Xinyi Dist., Taipei 110, Taiwan</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr"></span> Yu-Huei Lin 林玉惠 · College of Nursing, Taipei Medical University</div>
+</footer>
+
+<script>
+var PUBS=[
+ {y:2025,c:'edu',t:'Evaluating the effectiveness of illness script teaching on clinical reasoning skills in post-baccalaureate nursing students',a:'Wu YL, Lai MC, Chang WP, Lin YH',j:'Nurse Education Today, 144, 106401',d:'10.1016/j.nedt.2024.106401'},
+ {y:2025,c:'edu',t:'Resilience and mental health among nurses experiencing workplace violence: a cross-sectional study',a:'Pien LC, Wang CH, Cheng WJ, Lin YH, Chou KR, Hsu HT',j:'International Journal of Mental Health Nursing, 34(1), e13497',d:''},
+ {y:2024,c:'edu',t:'A longitudinal study of rotating shift type and attention performance of acute and critical care nurses with chronotype as moderator variable',a:'Lee A, Lin YK, Lin YH, Chang WP',j:'Journal of Occupational Health, 66(1), uiae042',d:'10.1093/joccuh/uiae042'},
+ {y:2024,c:'other',t:'Effectiveness of exercise interventions on body composition, exercise capacity, fatigue, and quality of life in patients with liver cirrhosis: a meta-analysis of randomized controlled trials',a:'Hsieh HC, Chang WP, Huang WL, Wang CH, Lin YH',j:'Digestive Diseases and Sciences, 69(7), 2655–2666',d:'10.1007/s10620-024-08447-0'},
+ {y:2023,c:'copd',t:'Physical frailty related to cognitive impairment and COPD exacerbation: a cross-sectional study',a:'',j:'Respiratory Medicine',d:'10.1016/j.rmed.2023.107129'},
+ {y:2023,c:'copd',t:'Characteristics and risk factors of facial pressure injuries in acute inpatients using noninvasive positive pressure ventilation: a retrospective case control study',a:'',j:'Intensive and Critical Care Nursing',d:'10.1016/j.iccn.2023.103453'},
+ {y:2022,c:'copd',t:'Adverse effects of non-intubated airway suctioning: a clinical data-based study',a:'Chang WP, Chen HM, Wu JR, Tsai YT, Ho CH, Lin YH',j:'Journal of Clinical Nursing, 32(5–6), 726–735',d:'10.1111/jocn.16307'},
+ {y:2022,c:'copd',t:'Effects of high-frequency chest wall oscillation on acute exacerbation of chronic obstructive pulmonary disease: a systematic review and meta-analysis of randomized controlled trials',a:'',j:'International Journal of COPD',d:'10.2147/COPD.S378642'},
+ {y:2022,c:'edu',t:'Cortisol awakening response and stress in female nurses on monthly shift rotations: a longitudinal study',a:'',j:'BioMed Research International',d:'10.1155/2022/9506583'},
+ {y:2022,c:'other',t:'Survival benefit of statin with anti-angiogenesis efficacy in lung cancer-associated pleural fluid through FXR modulation',a:'',j:'Cancers',d:'10.3390/cancers14112765'},
+ {y:2022,c:'other',t:'Farnesoid X receptor overexpression decreases the migration, invasion and angiogenesis of human bladder cancers via AMPK activation and cholesterol biosynthesis inhibition',a:'',j:'Cancers',d:'10.3390/cancers14184398'},
+ {y:2021,c:'copd',t:'Combination therapies with thiazolidinediones are associated with a lower risk of acute exacerbations in new-onset COPD patients with advanced diabetic mellitus: a cohort-based case–control study',a:'',j:'BMC Pulmonary Medicine',d:'10.1186/s12890-021-01505-7'},
+ {y:2021,c:'other',t:'Continuity of care and self-management among patients with stroke: a cross-sectional study',a:'',j:'Healthcare',d:'10.3390/healthcare9080989'},
+ {y:2021,c:'other',t:'Increased systolic blood pressure mediates the relationship between urate and gout risk in Indonesia: a novel application of a partial least squares-structural equation model',a:'',j:'Biological Research for Nursing',d:'10.1177/10998004211029044'},
+ {y:2021,c:'other',t:'Concurrent blockade of endothelial EGFR and VEGF signaling on malignant associated pleural fluid induced angiogenesis: from clinic to bench',a:'',j:'Biomedicines',d:'10.3390/biomedicines9101327'},
+ {y:2021,c:'copd',t:'Benefit of prophylactic bronchodilator with β2 adrenergic agonist in ischemia-reperfusion-induced lung injury',a:'',j:'Biocell',d:'10.32604/BIOCELL.2021.014279'},
+ {y:2019,c:'copd',t:'Acute exacerbations of chronic obstructive pulmonary disease (COPD) experiences among COPD patients with comorbid gastrooesophageal reflux disease',a:'',j:'Journal of Clinical Nursing',d:'10.1111/jocn.14814'},
+ {y:2015,c:'copd',t:'Gastro-oesophageal reflux disease increases the risk of intensive care unit admittance and mechanical ventilation use among patients with chronic obstructive pulmonary disease: a nationwide population-based cohort study',a:'',j:'Critical Care',d:'10.1186/s13054-015-0849-1'},
+ {y:2015,c:'copd',t:'Newly diagnosed gastroesophageal reflux disease increased the risk of acute exacerbation of chronic obstructive pulmonary disease during the first year following diagnosis: a nationwide population-based cohort study',a:'',j:'International Journal of Clinical Practice',d:'10.1111/ijcp.12501'}
+];
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function render(f){
+  var list=document.getElementById('pubList');
+  list.innerHTML=PUBS.filter(function(p){return f==='all'||p.c===f}).map(function(p){
+    var t=p.d?'<a href="https://doi.org/'+p.d+'" target="_blank" rel="noopener">'+esc(p.t)+'</a>':esc(p.t);
+    return '<li><div class="t">'+t+'</div><div class="j">'+(p.a?esc(p.a)+' · ':'')+'<i>'+esc(p.j)+'</i> ('+p.y+')</div></li>';
+  }).join('');
+}
+render('all');
+document.querySelectorAll('.filters .btn').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.filters .btn').forEach(function(x){x.setAttribute('aria-pressed','false')});
+    b.setAttribute('aria-pressed','true');render(b.dataset.f);
+  });
+});
+document.getElementById('langBtn').addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-lang')==='zh'?'en':'zh';
+  r.setAttribute('data-lang',n);r.lang=n==='zh'?'zh-Hant':'en';
+  try{localStorage.setItem('lang',n)}catch(e){}
+});
+document.getElementById('themeBtn').addEventListener('click',function(){
+  var r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),n=cur==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}
+});
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
